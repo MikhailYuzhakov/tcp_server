@@ -17,7 +17,7 @@ public class tcp_server {
 		
 		// стартуем сервер на порту 3345 и инициализируем переменную для обработки консольных команд с самого сервера
 		try (ServerSocket server = new ServerSocket(3345)) {
-			System.out.println("Server socket " + server.getLocalSocketAddress() +  " created");
+			System.out.println("Server 2.0 socket " + server.getLocalSocketAddress() +  " created");
 
 			// стартуем цикл при условии что серверный сокет не закрыт
 			while (!server.isClosed()) {			
